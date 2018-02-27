@@ -11,7 +11,7 @@ var render = function render(res) {
         var data = res[j];
         var liTmpl = "";
 
-        var imgLink = 'img/photo/' + data;
+        var imgLink = 'blob/master/photos/images/' + data;
         var imgName =data;
 
        /* var minSrc = '/img/photo/' + data.id + '.min.jpg';
