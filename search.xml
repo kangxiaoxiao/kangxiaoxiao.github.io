@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[lalala很饿]]></title>
+    <url>%2F2018%2F02%2F24%2Flalala%2F</url>
+    <content type="text"><![CDATA[我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容 [小白[小白的原创]] [http://baidu.com] [小白的第一篇文章] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem. //引用书上的句子Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy. David LevithanWide Awake //引用twitterNEW: DevDocs now comes with syntax highlighting. https://baidu.com @DevDocsbaidu.com //在文章中插入代码块这里可以是注释吧12code snippethtml/css/javascript //普通的代码块1alert(&apos;Hello World!&apos;); //反引号代码块[language] [title] [url] [link text] code snippet //指定语言1[rectangle setX: 10 y: 10 width: 20 height: 20]; //pullquotecontent //插入图片 //外部链接百度外链 //图片链接]]></content>
+      <tags>
+        <tag>html</tag>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[初始化]]></title>
+    <url>%2F2018%2F02%2F24%2F%E5%88%9D%E5%A7%8B%E5%8C%96%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F02%2F24%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
