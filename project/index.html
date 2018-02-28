@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<!-- Head tag -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--Description-->
+  
+
+  <!--Author-->
+  
+  <meta name="author" content="小白">
+  
+
+  <!--Open Graph Title-->
+  
+      <meta property="og:title" content="project"/>
+  
+  <!--Open Graph Description-->
+  
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="小白的博客"/>
+  <!--Type page-->
+  
+      <meta property="og:type" content="article" />
+  
+  <!--Page Cover-->
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- 百度统计 -->
+    <script>
+	var _hmt = _hmt || [];
+	(function() {
+  	var hm = document.createElement("script");
+  	hm.src = "https://hm.baidu.com/hm.js?c0451e16533956173997b85f7a8de666";
+  	var s = document.getElementsByTagName("script")[0]; 
+  	s.parentNode.insertBefore(hm, s);
+	})();
+    </script>
+  <!-- Title -->
+  
+  <title>project - 小白的博客</title>
+
+
+  <link rel="shortcut icon" href="/favicon.ico">
+    <!--font-awesome-->
+  <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Custom CSS/Sass -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+
+<body>
+
+  <!-- Nav -->
+  <header class="site-header">
+  <div class="header-inside">
+    
+    <div class="logo">
+      <a href="/" rel="home">
+        
+        <img src="http://oct3pmpde.bkt.clouddn.com/timg.jpg" alt="小白的博客" height="60">
+        
+      </a>
+    </div>
+    <a class="header-name" href="/">
+            <span>小白的博客</span>
+            的部落宅
+        </a>
+    <!-- navbar -->
+    <nav class="navbar">
+      <!--  nav links -->
+      <div class="collapse">
+        <ul class="navbar-nav">
+          
+          
+            <li>
+              <a href="/.">
+                
+                  <i class="fa fa-home "></i>
+                
+                首页
+              </a>
+            </li>
+          
+            <li>
+              <a href="/archives">
+                
+                  <i class="fa fa-archive "></i>
+                
+                归档
+              </a>
+            </li>
+          
+            <li>
+              <a href="/about">
+                
+                  <i class="fa fa-user "></i>
+                
+                关于
+              </a>
+            </li>
+          
+            <li>
+              <a href="/project">
+                
+                  <i class="fa fa-folder-open "></i>
+                
+                项目
+              </a>
+            </li>
+          
+            <li>
+              <a href="/photo">
+                
+                  <i class="fa fa-photo "></i>
+                
+                相册
+              </a>
+            </li>
+          
+            <li>
+              <a href="/guestbook">
+                
+                  <i class="fa fa-edit "></i>
+                
+                留言
+              </a>
+            </li>
+          
+            <li>
+              <a href="/atom.xml">
+                
+                  <i class="fa fa-send "></i>
+                
+                RSS
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+    <div class="button-wrap">
+      <button class="menu-toggle">Primary Menu</button>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Main Content -->
+  <style>
+#container {
+    margin: auto;
+    max-width: 1280px;
+    margin-top: 5em;
+    margin-bottom: 60px;
+    animation: cont 0.3s;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 20px 0px 15px 0px;
+    clear: both;
+}
+.about-me .counts, .about-me .profile {
+    border-bottom: 1px solid #eee;
+    margin: 0 0 3%;
+    padding: 0 0 3%;
+    text-align: center;
+}
+.about-me .avatar-450 {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 100%;
+    border: 3px solid #F2F5F7;
+}
+.avatar-450 {
+    width: 30%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 100%;
+}
+.about-me .about-avatar, .about-me .info {
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 0;
+    margin-top: -15px;
+}
+.about-me .info {
+    width: 30%;
+    padding-left: 15px;
+}
+.about-me .info h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #333;
+    word-break: break-all;
+}
+.about-me .info h1, .about-me p {
+    color: rgba(0,0,0,.6);
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.repo-list{
+    list-style: none;
+}
+li.repo{
+    width: 32%;
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0.3%;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.25);
+    transition: all .3s linear;
+}
+li.repo:hover{
+    box-shadow: 0 0 18px 0 rgba(0,0,0,.5);
+}
+li.repo h2 {
+    margin-top: 20px;
+    padding: 10px 20px 5px;
+    color: #CE2323;
+}
+li.repo p.commit {
+    padding: 0 20px 20px;
+    font-size: 0.6em;
+}
+li p.fot{
+    margin: 0 20px 15px;
+}
+
+li span.pic{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+li span.language{
+    padding-left: 20px;
+    color: #767676;
+}
+@media all and (max-width:1440px){
+    #container{max-width:1100px}
+    .post-random .photo {width: 23%;}
+}
+@media (max-width: 999px) {
+    #container {
+        width: 95%;
+        margin-top: 2em;
+    }
+}
+@media screen and (max-width: 960px) {
+    li.repo {
+        display: block;
+        width: 85%;
+        margin: 10px auto;
+    }
+}
+@media (max-width: 720px) {
+    #container {
+        box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 0px 0px, rgba(0, 0, 0, 0.298039) 0px 0px 0px 0px;
+        width: 94%;
+        margin: 10px auto auto -3px;
+        padding: 15px;
+
+    }
+}
+
+</style>
+<div id="container">
+    <div class="about-me about_mob" style="display: inherit;">
+        <div class="profile">
+            <img alt="" src="http://oct3pmpde.bkt.clouddn.com/avator.jpg"  class="avatar avatar-450 photo" height="450" width="450">
+            <div class="info aboutinfo">
+                <h1><span>小白的博客</span>的代码库</h1>
+                <p>永远相信</p>
+                <p>美好的事情即将发生</p>
+            </div>
+        </div>
+    </div>
+    <div class="codeBox">
+        <ol class="repo-list">
+		
+		  <li class="repo">
+                    <a href="https://github.com/th720309/hexo-theme-believe" target="_blank">
+                    	<div class="content">
+                          <h2 class="title">demo1</h2>
+                          <p class="commit">第一个demo</p>
+                          <p class="fot">
+                            <span class="pic" style="background-color: #f1e05a;"></span><span class="language">css</span>
+                          </p>
+                        </div>
+                    </a>
+                  </li>
+                
+		  <li class="repo">
+                    <a href="https://github.com/th720309/hexo-theme-believe" target="_blank">
+                    	<div class="content">
+                          <h2 class="title">demo2</h2>
+                          <p class="commit">第二个demo</p>
+                          <p class="fot">
+                            <span class="pic" style="background-color: #f1e05a;"></span><span class="language">css</span>
+                          </p>
+                        </div>
+                    </a>
+                  </li>
+                
+		  <li class="repo">
+                    <a href="https://github.com/th720309/hexo-theme-believe" target="_blank">
+                    	<div class="content">
+                          <h2 class="title">demo3</h2>
+                          <p class="commit">第三个demo</p>
+                          <p class="fot">
+                            <span class="pic" style="background-color: #f1e05a;"></span><span class="language">css</span>
+                          </p>
+                        </div>
+                    </a>
+                  </li>
+                
+
+        </ol>
+    </div>
+</div>
+
+
+  <!-- Footer -->
+  <!-- Footer -->
+<footer class="site-info">
+  <p>
+    <span>小白的博客 &copy; 2018</span>
+    
+      <span class="split">|</span>
+      <span>th是个小屁孩的技术小屋</span>
+    
+  </p>
+  <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  本站总访问量<span id="busuanzi_value_site_pv"></span>次
+  本站访客数<span id="busuanzi_value_site_uv"></span>人次
+</footer>
+
+
+  <!-- After footer scripts -->
+  <!-- scripts -->
+<script src="/js/app.js"></script>
+
+
+
+</body>
+
+</html>
