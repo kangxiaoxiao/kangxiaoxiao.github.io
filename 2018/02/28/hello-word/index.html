@@ -16,7 +16,7 @@
 
   <!--Open Graph Title-->
   
-      <meta property="og:title" content="lalala"/>
+      <meta property="og:title" content="hello-word"/>
   
   <!--Open Graph Description-->
   
@@ -42,7 +42,7 @@
     </script>
   <!-- Title -->
   
-  <title>lalala - 小白的博客</title>
+  <title>hello-word - 小白的博客</title>
 
 
   <link rel="shortcut icon" href="/favicon.ico">
@@ -63,7 +63,7 @@
     <div class="logo">
       <a href="/" rel="home">
         
-        <img src="http://oct3pmpde.bkt.clouddn.com/timg.jpg" alt="小白的博客" height="60">
+        <img src="/images/user_img.jpg" alt="小白的博客" height="60">
         
       </a>
     </div>
@@ -161,75 +161,27 @@
         <!-- Title date & tags -->
         <div class="post-header">
           <h1 class="entry-title">
-            lalala
+            hello-word
             
           </h1>
          
         </div>
          <p class="a-posted-on">
-          2018-02-24
+          2018-02-28
           </p>
         <!-- Post Main Content -->
         <div class="entry-content">
           <img src="/images/1.jpg" class="[class names]" width="700" height="200" title="[title text [alt text]]">
 <a id="more"></a>
-<blockquote><p>我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容</p>
-<footer><strong>[小白[</strong><cite>小白的原创]] [http://baidu.com] [小白的第一篇文章]</cite></footer></blockquote>
-<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p>
-</blockquote>
-<p>//引用书上的句子<br><blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
-<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote></p>
-<p>//引用twitter<br><blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="https://baidu.com" target="_blank" rel="noopener">https://baidu.com</a></p>
-<footer><strong>@DevDocs</strong><cite><a href="https://baidu.com" target="_blank" rel="noopener">baidu.com</a></cite></footer></blockquote></p>
-<p>//在文章中插入代码块<br><figure class="highlight plain"><figcaption><span>这里可以是注释吧</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br><span class="line">html/css/javascript</span><br></pre></td></tr></table></figure></p>
-<p>//普通的代码块<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure></p>
-<p>//反引号代码块<br><code>[language] [title] [url] [link text] code snippet</code></p>
-<p>//指定语言<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure></p>
-<p>//pullquote<br><blockquote class="pullquote [class]"><p>content</p>
-</blockquote></p>
-<p>//插入图片<br><img src="/images/3.jpg" class="class标签" title="[width] [height] [title text [alt text]]"></p>
-<p>//外部链接<br><a href="http://baidu.com" title="[external] [title]" target="_blank" rel="noopener">百度外链</a></p>
-<p>//图片链接<br><img src="/images/3.jpg" title="This is an example image"></p>
+<p>琢磨了两天，总算是把博客搭建起来了。感觉很不容易啊~<br>具体方法如下：<br><br><br><strong>安装hexo</strong><br>（1）安装好应用程序git、nodeJS<br>（2）用npm安装hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br><span class="line">$ npm install hexo --save</span><br></pre></td></tr></table></figure><br>（3）hexo的相关配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure><br>（4）生成静态文件，并本地启动服务器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></p>
+<p><strong>将hexo发布在github 上</strong><br>首先需要在github上创建账号，新建一个repository 。新建repository的名字应当为 “你的github用户名.github.io”<br>配置ssh key<br>配置根目录中_config.yml中有关deploy的部分：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:kangxiaoxiao/kangxiaoxiao.github.io.git</span><br></pre></td></tr></table></figure><br>错误写法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: github</span><br><span class="line">  repository: https://github.com/liuxianan/liuxianan.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><br>因为后面一种写法是hexo2.x的写法，现在已经不行了<br>安装插件hexo-deployer-git<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><br>代码提交<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><br>提交成功后会如图所示：<br><img src="/images/push_success.jpg" class="[class names]" title="[width] [height] [title text [alt text]]"></p>
+<p><strong>新建一篇博客并提交到github</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post &quot;hello-word&quot;</span><br><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure><br>到这里就可以测试访问啦<br>地址：<a href="https://kangxiaoxiao.github.io/" target="_blank" rel="noopener">https://kangxiaoxiao.github.io/</a></p>
 
         </div>
       </article>
     </div>
     <!-- Pre or Next -->
     
-	<div class="container" >
-           <ul class="pager">
-    	     
-           
-              <li class="next">
-              <a href="/2018/02/24/初始化/" rel="prev">上一篇</a>
-            </li>
-           
-          </ul>
-       </div>
-　　　　<!-- Comments -->
-    <div class="container">
-      <section class="livere" id="comments">
-    <!-- 来必力City版安装代码 -->
-    <div id="lv-container" data-id="city" data-uid="MTAyMC8zNDQyNS8xMDk2Mg==">
-    <script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-       })(document, 'script');
-    </script>
-    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
-    </div>
-    <!-- City版安装代码已完成 -->
-</section>
-    </div>
-   
 　　　　
   </div>
 </div>
@@ -242,7 +194,7 @@
     <span>小白的博客 &copy; 2018</span>
     
       <span class="split">|</span>
-      <span>th是个小屁孩的技术小屋</span>
+      <span>我是小白</span>
     
   </p>
   <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>

@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[lalala]]></title>
-    <url>%2F2018%2F02%2F24%2Flalala%2F</url>
-    <content type="text"><![CDATA[我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容 [小白[小白的原创]] [http://baidu.com] [小白的第一篇文章] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem. //引用书上的句子Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy. David LevithanWide Awake //引用twitterNEW: DevDocs now comes with syntax highlighting. https://baidu.com @DevDocsbaidu.com //在文章中插入代码块这里可以是注释吧12code snippethtml/css/javascript //普通的代码块1alert(&apos;Hello World!&apos;); //反引号代码块[language] [title] [url] [link text] code snippet //指定语言1[rectangle setX: 10 y: 10 width: 20 height: 20]; //pullquotecontent //插入图片 //外部链接百度外链 //图片链接]]></content>
-      <tags>
-        <tag>html</tag>
-        <tag>css</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[初始化]]></title>
-    <url>%2F2018%2F02%2F24%2F%E5%88%9D%E5%A7%8B%E5%8C%96%2F</url>
-    <content type="text"><![CDATA[1212]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F02%2F24%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[hello-word]]></title>
+    <url>%2F2018%2F02%2F28%2Fhello-word%2F</url>
+    <content type="text"><![CDATA[琢磨了两天，总算是把博客搭建起来了。感觉很不容易啊~具体方法如下：安装hexo（1）安装好应用程序git、nodeJS（2）用npm安装hexo12$ npm install -g hexo-cli$ npm install hexo --save（3）hexo的相关配置123$ hexo init &lt;folder&gt;$ cd &lt;folder&gt;$ npm install（4）生成静态文件，并本地启动服务器12$ hexo generate$ hexo server 将hexo发布在github 上首先需要在github上创建账号，新建一个repository 。新建repository的名字应当为 “你的github用户名.github.io”配置ssh key配置根目录中_config.yml中有关deploy的部分：123deploy: type: git repo: git@github.com:kangxiaoxiao/kangxiaoxiao.github.io.git错误写法：1234deploy: type: github repository: https://github.com/liuxianan/liuxianan.github.io.git branch: master因为后面一种写法是hexo2.x的写法，现在已经不行了安装插件hexo-deployer-git1npm install hexo-deployer-git --save代码提交1$ hexo d提交成功后会如图所示： 新建一篇博客并提交到github12$ hexo new post &quot;hello-word&quot;$ hexo d -g到这里就可以测试访问啦地址：https://kangxiaoxiao.github.io/]]></content>
   </entry>
 </search>

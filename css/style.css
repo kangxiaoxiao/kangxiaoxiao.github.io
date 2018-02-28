@@ -528,6 +528,7 @@ Content
   box-shadow: 5px 5px 25px #dadada;
   padding: 5px;
   margin: 73px auto 0 auto;
+  background-color: #e5e5e5;
   background-size: cover;
   background-position: bottom; }
 
@@ -875,7 +876,8 @@ Footer
     display: inline-block; }
     .logo a img {
       display: block;
-      height: 60px; }
+      height: 60px;
+      border-radius: 50%; }
 
 a.header-name {
   font-weight: 800;
