@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[hello-word]]></title>
+    <url>%2F2018%2F02%2F28%2Fhello-word%2F</url>
+    <content type="text"><![CDATA[琢磨了两天，总算是把博客搭建起来了。感觉很不容易啊~具体方法如下：安装hexo（1）安装好应用程序git、nodeJS（2）用npm安装hexo12$ npm install -g hexo-cli$ npm install hexo --save（3）hexo的相关配置123$ hexo init &lt;folder&gt;$ cd &lt;folder&gt;$ npm install（4）生成静态文件，并本地启动服务器12$ hexo generate$ hexo server 将hexo发布在github 上首先需要在github上创建账号，新建一个repository 。新建repository的名字应当为 “你的github用户名.github.io”配置ssh key配置根目录中_config.yml中有关deploy的部分：123deploy: type: git repo: git@github.com:kangxiaoxiao/kangxiaoxiao.github.io.git错误写法：1234deploy: type: github repository: https://github.com/liuxianan/liuxianan.github.io.git branch: master因为后面一种写法是hexo2.x的写法，现在已经不行了安装插件hexo-deployer-git1npm install hexo-deployer-git --save代码提交1$ hexo d提交成功后会如图所示： 新建一篇博客并提交到github12$ hexo new post &quot;hello-word&quot;$ hexo d -g到这里就可以测试访问啦地址：https://kangxiaoxiao.github.io/更换主题首先需要下载主题:123$ cd 根文件夹$ git clone https://github.com/th720309/hexo-theme-believe.git themes/hexo-theme-believe$ npm install --save hexo-renderer-sass修改根文件中_config.yml中的theme: landscape改为theme: hexo-theme-believe，然后重新执行hexo g来重新生成。如果出现一些莫名其妙的问题，可以先执行hexo clean来清理一下public的内容，然后再来重新生成和发布。 hexo官方文档：https://hexo.io/zh-cn/docs/]]></content>
+      <tags>
+        <tag>html</tag>
+      </tags>
+  </entry>
+</search>
