@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="html," />
+  <meta name="keywords" content="hexo," />
 
 
 
@@ -79,20 +79,18 @@
 
 
 
-<meta name="description" content="琢磨了两天，总算是把博客搭建起来了。感觉很不容易啊~具体方法如下：安装hexo（1）安装好应用程序git、nodeJS（2）用npm安装hexo">
-<meta name="keywords" content="html">
+<meta name="description" content="最近整了一个图片上传的东西，由于上传的时候还需要上传其它的参数，所以用原生JS整了一套。结合Vue.第一步：用input标签，用作图片上传12345678&amp;lt;input    class=&amp;quot;uploadInput&amp;quot;    name=&amp;quot;txtName&amp;quot;    type=&amp;quot;file&amp;quot;    @change=&amp;quot;loadImage(">
+<meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hello-word">
-<meta property="og:url" content="http://yoursite.com/2018/02/28/hello-word/index.html">
+<meta property="og:title" content="原生JS文件上传">
+<meta property="og:url" content="http://yoursite.com/2018/05/11/原生JS文件上传/index.html">
 <meta property="og:site_name" content="&lt;hello-world&#x2F;&gt;">
-<meta property="og:description" content="琢磨了两天，总算是把博客搭建起来了。感觉很不容易啊~具体方法如下：安装hexo（1）安装好应用程序git、nodeJS（2）用npm安装hexo">
+<meta property="og:description" content="最近整了一个图片上传的东西，由于上传的时候还需要上传其它的参数，所以用原生JS整了一套。结合Vue.第一步：用input标签，用作图片上传12345678&amp;lt;input    class=&amp;quot;uploadInput&amp;quot;    name=&amp;quot;txtName&amp;quot;    type=&amp;quot;file&amp;quot;    @change=&amp;quot;loadImage(">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/images/push_success.jpg">
-<meta property="og:updated_time" content="2018-05-11T10:04:12.000Z">
+<meta property="og:updated_time" content="2018-05-14T03:29:17.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hello-word">
-<meta name="twitter:description" content="琢磨了两天，总算是把博客搭建起来了。感觉很不容易啊~具体方法如下：安装hexo（1）安装好应用程序git、nodeJS（2）用npm安装hexo">
-<meta name="twitter:image" content="http://yoursite.com/images/push_success.jpg">
+<meta name="twitter:title" content="原生JS文件上传">
+<meta name="twitter:description" content="最近整了一个图片上传的东西，由于上传的时候还需要上传其它的参数，所以用原生JS整了一套。结合Vue.第一步：用input标签，用作图片上传12345678&amp;lt;input    class=&amp;quot;uploadInput&amp;quot;    name=&amp;quot;txtName&amp;quot;    type=&amp;quot;file&amp;quot;    @change=&amp;quot;loadImage(">
 
 
 
@@ -122,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/02/28/hello-word/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/11/原生JS文件上传/"/>
 
 
 
 
 
-  <title>hello-word | <hello-world/></title>
+  <title>原生JS文件上传 | <hello-world/></title>
   
 
 
@@ -309,7 +307,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/28/hello-word/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/11/原生JS文件上传/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="小白">
@@ -326,7 +324,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hello-word</h1>
+          <h1 class="post-title" itemprop="name headline">原生JS文件上传</h1>
         
 
         <div class="post-meta">
@@ -338,8 +336,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-28T17:54:23+08:00">
-                2018-02-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-11T17:56:58+08:00">
+                2018-05-11
               </time>
             
 
@@ -348,28 +346,6 @@
             
           </span>
 
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/前端/" itemprop="url" rel="index">
-                    <span itemprop="name">前端</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -398,10 +374,13 @@
       
 
       
-        <p>琢磨了两天，总算是把博客搭建起来了。感觉很不容易啊~<br>具体方法如下：<br><strong>安装hexo</strong><br>（1）安装好应用程序git、nodeJS<br>（2）用npm安装hexo<br><a id="more"></a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br><span class="line">$ npm install hexo --save</span><br></pre></td></tr></table></figure><br>（3）hexo的相关配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure><br>（4）生成静态文件，并本地启动服务器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></p>
-<p><strong>将hexo发布在github 上</strong><br>首先需要在github上创建账号，新建一个repository 。新建repository的名字应当为 “你的github用户名.github.io”<br>配置ssh key<br>配置根目录中_config.yml中有关deploy的部分：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:kangxiaoxiao/kangxiaoxiao.github.io.git</span><br></pre></td></tr></table></figure><br>错误写法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: github</span><br><span class="line">  repository: https://github.com/liuxianan/liuxianan.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><br>因为后面一种写法是hexo2.x的写法，现在已经不行了<br>安装插件hexo-deployer-git<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><br>代码提交<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><br>提交成功后会如图所示：<br><img src="/images/push_success.jpg" class="[class names]" title="[width] [height] [title text [alt text]]"></p>
-<p><strong>新建一篇博客并提交到github</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post &quot;hello-word&quot;</span><br><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure><br>到这里就可以测试访问啦<br>地址：<a href="https://kangxiaoxiao.github.io/" target="_blank" rel="noopener">https://kangxiaoxiao.github.io/</a><br><br><br><strong>更换主题</strong><br>首先需要下载主题:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cd 根文件夹</span><br><span class="line">$ git clone https://github.com/th720309/hexo-theme-believe.git themes/hexo-theme-believe</span><br><span class="line">$ npm install --save hexo-renderer-sass</span><br></pre></td></tr></table></figure><br>修改根文件中_config.yml中的theme: landscape改为theme: hexo-theme-believe，然后重新执行hexo g来重新生成。<br>如果出现一些莫名其妙的问题，可以先执行hexo clean来清理一下public的内容，然后再来重新生成和发布。</p>
-<p>hexo官方文档：<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p>
+        <p>最近整了一个图片上传的东西，由于上传的时候还需要上传其它的参数，所以用原生JS整了一套。结合Vue.<br>第一步：<br>用input标签，用作图片上传<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;input</span><br><span class="line">    class=&quot;uploadInput&quot;</span><br><span class="line">    name=&quot;txtName&quot;</span><br><span class="line">    type=&quot;file&quot;</span><br><span class="line">    @change=&quot;loadImage(this)&quot;</span><br><span class="line">    ref=&quot;file&quot;/&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<p>用img标签用作图片的展示<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;div class=&quot;img_wrapper&quot;&gt;</span><br><span class="line">      &lt;img :src=&quot;curUserMsg.portrait&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<p>数据提交<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;btn_wrapper&quot;&gt;</span><br><span class="line">   &lt;button @click=&quot;submit&quot; type=&quot;button&quot;&gt;提交&lt;/button&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<p>第二步：<br>数据初始化<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">data()&#123;</span><br><span class="line">  return&#123;</span><br><span class="line">      imageFile:&quot;&quot;,</span><br><span class="line">      curUserMsg:&#123;</span><br><span class="line">          &quot;portrait&quot;:&quot;&quot;</span><br><span class="line">      &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<p>第三步：<br>JS 处理<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">submit:function()&#123;</span><br><span class="line">   //提交上传的图片信息</span><br><span class="line">   let imgFile=this.imageFile.files[0];</span><br><span class="line">   if(imgFile)&#123;</span><br><span class="line">      console.log(&quot;提交的图片信息&quot;,imgFile);</span><br><span class="line">   &#125;else&#123;</span><br><span class="line">     console.log(&quot;请先上传图片&quot;)</span><br><span class="line">   &#125;</span><br><span class="line">&#125;,</span><br><span class="line">loadImage:function()&#123;</span><br><span class="line">    var img=this.$refs.file;</span><br><span class="line">    this.imageFile=this.$refs.file;</span><br><span class="line">    console.log(&quot;图片信息&quot;,img);</span><br><span class="line">    console.log(&quot;图片路径&quot;,img.value);</span><br><span class="line">    console.log(&quot;图片信息&quot;,img.files);</span><br><span class="line">    var filePath = img.value;</span><br><span class="line">    var fileExt = filePath.substring(filePath.lastIndexOf(&quot;.&quot;))</span><br><span class="line">            .toLowerCase();</span><br><span class="line"></span><br><span class="line">    if (!this.checkFileExt(fileExt)) &#123;</span><br><span class="line">        alert(&quot;您上传的文件不是图片,请重新上传！&quot;,&quot;warning&quot;);</span><br><span class="line">        img.value = &quot;&quot;;</span><br><span class="line">        return;</span><br><span class="line">    &#125;</span><br><span class="line">    if (img.files &amp;&amp; img.files[0]) &#123;</span><br><span class="line">//                alert(img);</span><br><span class="line">//                alert(img.files[0])</span><br><span class="line"></span><br><span class="line">        console.log(&apos;你选择的文件大小&apos; + (img.files[0].size / 1024).toFixed(0) + &quot;kb&quot;);</span><br><span class="line">        //长传的图片的大小的拦截</span><br><span class="line">        if((img.files[0].size / 1024).toFixed(0)&gt;100)&#123;</span><br><span class="line">            alert(&quot;上传的头像不能大于100Kb&quot;,&quot;error&quot;);</span><br><span class="line">            img.value = &quot;&quot;;</span><br><span class="line">            return;</span><br><span class="line">        &#125;</span><br><span class="line">//                var xx = img.files[0];</span><br><span class="line">//                for (var i in xx) &#123;</span><br><span class="line">//                    alert(xx[i])</span><br><span class="line">//                &#125;</span><br><span class="line">        console.log(&quot;上传成功&quot;,filePath);</span><br><span class="line">        this.curUserMsg.portrait=this.getObjectURL(img.files[0]);</span><br><span class="line">        console.log(&apos;上传成功的头像&apos;,this.curUserMsg.portrait);</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        img.select();</span><br><span class="line">        var url = document.selection.createRange().text;</span><br><span class="line">        try &#123;</span><br><span class="line">            var fso = new ActiveXObject(&quot;Scripting.FileSystemObject&quot;);</span><br><span class="line">        &#125; catch (e) &#123;</span><br><span class="line">            console.log(&apos;如果你用的是ie8以下 请将安全级别调低！&apos;);</span><br><span class="line">        &#125;</span><br><span class="line">        console.log(&quot;文件大小为：&quot; + (fso.GetFile(url).size / 1024).toFixed(0) + &quot;kb&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;,</span><br><span class="line"> checkFileExt:function(ext) &#123;</span><br><span class="line">    if (!ext.match(/.jpg|.png|.jpeg/i)) &#123;</span><br><span class="line">        return false;</span><br><span class="line">    &#125;</span><br><span class="line">    return true;</span><br><span class="line">&#125;,</span><br><span class="line">//图片预览</span><br><span class="line">getObjectURL:function(file) &#123;</span><br><span class="line">    var url = null;</span><br><span class="line">    if (window.createObjectURL != undefined) &#123; //</span><br><span class="line">        url = window.createObjectURL(file);</span><br><span class="line">    &#125; else if (window.URL != undefined) &#123;</span><br><span class="line">        //仅简单的验证仅如下的浏览器支持 webkit or chrome ie11 ie10 firefox oprea</span><br><span class="line">        url = window.URL.createObjectURL(file);</span><br><span class="line">    &#125; else if (window.webkitURL != undefined) &#123; // webkit or chrome</span><br><span class="line">        url = window.webkitURL.createObjectURL(file);</span><br><span class="line">    &#125;</span><br><span class="line">    return url;</span><br><span class="line">&#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<p>PS：如果想用手动唤起图片的上传，可以通过点击事件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">toUploadImg:function()&#123;</span><br><span class="line">      console.log(&quot;上传图片&quot;);</span><br><span class="line">     $(&quot;.uploadInput&quot;).click();</span><br><span class="line">  &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -419,7 +398,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/html/" rel="tag"># html</a>
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
           
         </div>
       
@@ -432,15 +411,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/02/28/hello-word/" rel="next" title="hello-word">
+                <i class="fa fa-chevron-left"></i> hello-word
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/05/11/原生JS文件上传/" rel="prev" title="原生JS文件上传">
-                原生JS文件上传 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
